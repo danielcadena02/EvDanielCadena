@@ -8,5 +8,10 @@
       d:DesignHeight="350" d:DesignWidth="790"
       Title="home">
 
-    <Grid Background="#FFCAFFFA"/>
+    <Grid Background="#FFCAFFFA">
+        <Label Content="Productos" HorizontalAlignment="Left" Margin="86,34,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock Name="txtResults"  HorizontalAlignment="Left" Margin="505,34,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="278" Width="235" Background="Black" FontSize="14" FontFamily="Bahnschrift" Foreground="#FF007312"/>
+        <TextBox Name="txtProductName" HorizontalAlignment="Left" Margin="212,41,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" Height="24" FontSize="16"/>
+        <Button Name="btnSave" Content="Registrar" HorizontalAlignment="Left" Margin="264,113,0,0" VerticalAlignment="Top" Click="Button_Click" Width="105"/>
+    </Grid>
 </Page>

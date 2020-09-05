@@ -14,20 +14,13 @@ using System.Windows.Shapes;
 namespace Onlypans
 {
     /// <summary>
-    /// Lógica de interacción para home.xaml
+    /// Lógica de interacción para home_administradora.xaml
     /// </summary>
-    public partial class home : Page
+    public partial class home_administradora : Page
     {
-        public home()
+        public home_administradora()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            string productName = txtProductName.Text;
-
-            txtResults.Text = productName;
         }
     }
 }

@@ -33,7 +33,7 @@ namespace Onlypans
             if (txtusername.Text == "administradora" && txtpassword.Password == "4321")
             {
                 MainWindow w = (MainWindow)Window.GetWindow(this);
-                w.FrameMain.NavigationService.Navigate(new home());
+                w.FrameMain.NavigationService.Navigate(new home_administradora());
             }
             else
             {
