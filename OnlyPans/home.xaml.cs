@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,18 +14,13 @@ using System.Windows.Shapes;
 namespace Onlypans
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para home.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class home : Page
     {
-        public MainWindow()
+        public home()
         {
             InitializeComponent();
-        }
-
-        private void FrameMain_Loaded(object sender, RoutedEventArgs e)
-        {
-            FrameMain.NavigationService.Navigate(new login());
         }
     }
 }
